@@ -32,7 +32,7 @@ function iniciarJogo() {
     if(direction == "up") snakeY -= box;
     if(direction == "down") snakeY += box;
 
-    snake.pop();]
+    snake.pop();
 
     let newHead = {
         x: snakeX,
